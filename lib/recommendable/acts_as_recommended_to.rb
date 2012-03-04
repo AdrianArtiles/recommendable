@@ -510,7 +510,7 @@ module Recommendable
         unpredict(object)
       end
 
-      protected
+      #protected
 
       # @private
       def likes_set_for(klass)
@@ -543,7 +543,7 @@ module Recommendable
         end
       end
 
-      private
+      #private
 
       # Checks how similar a passed rater is with self. This method calculates
       # a numeric similarity value that can fall between -1.0 and 1.0. A value of
